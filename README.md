@@ -14,7 +14,7 @@ install npm
 install sailsjs more info on 
 https://sailsjs.com/get-started
 
-clone this repo
+clone this repo\
 run sails lift
 
 
@@ -27,12 +27,12 @@ GET /product
 GET /product/{id}
 ### insert 
 POST /product\
+
 {
   "name":"Any string",
   "description":"any string",
   "price": 1000,
   "image_url":"any string"
-  
 }
 ### delete
 DELETE /product
@@ -46,15 +46,18 @@ GET /customer
 GET /customer/{id}
 ### insert 
 POST /customer\
+
 {
   "name": "any"
 }
+
 ### delete
 DELETE /customer
 
 ## Orders
 ### create
 POST /orders\
+
 {
   "products": [{id product},{id product}],
   "total_price": 70000,
